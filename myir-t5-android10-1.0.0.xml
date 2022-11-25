@@ -15,7 +15,7 @@
   <project name="toolchain" path="longan/brandy/brandy-2.0/tools/toolchain" remote="LicyPublic" revision="cb418935d594529e696e14aa2e24cf2467bcd54f"/>
   <project name="toolchain" path="longan/build/toolchain" remote="LicyPublic" revision="cb418935d594529e696e14aa2e24cf2467bcd54f"/>
   <project name="build.sh" path="longan/" remote="MyirALLWINNERPublic" revision="2d6ab900f77e784bc2bc2072bcb76207e4bdb92b"/>
-  <project name="build" path="longan/build" remote="MyirALLWINNERPublic" revision="4332bf1793748ae524d8a4302e91cf3ac1e4c966"/>
+  <project name="build" path="longan/build" remote="MyirALLWINNERPublic" revision="3d1564afb4dd02c2b80af7ca796c8ae06464c4f3"/>
   <project name="tools" path="longan/tools" remote="MyirALLWINNERPublic" revision="aaf20f8ae523d6590fc36456d08aa8de9cf037c9"/>
 
  <!--BSP code -->

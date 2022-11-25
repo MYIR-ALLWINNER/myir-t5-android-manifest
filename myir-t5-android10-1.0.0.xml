@@ -20,6 +20,5 @@
 
   <project name="myir-t5-kernel" path="T507H/kernel/linux-4.9" remote="MyirALLWINNERPublic" revision="5e8dd7cf40231c8a4311e090a731b3166d5421dd"/>
   <project name="myir-t5-uboot" path="T507H/brandy/brandy-2.0/u-boot-2018" remote="MyirALLWINNERPublic" revision="2233efebf62ec73b5621558f3517eb086c3f426a"/>
-  </project>
 
 </manifest>

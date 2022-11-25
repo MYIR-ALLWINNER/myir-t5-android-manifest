@@ -1,24 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<remote fetch="https://github.com" name="github"/>
-	<remote fetch="https://gitee.com/" name="LicyPublic"/>
+	<remote fetch="https://gitee.com/lichang70" name="LicyPublic"/>
 	<remote fetch="https://github.com/MYiR-Dev" name="MyirPublic"/>
 	<remote fetch="https://github.com/MYIR-ALLWINNER" name="MyirALLWINNERPublic"/>
 
 	<default remote="MyirALLWINNERPublic"/>
 
-  <project name="framework" path="T507H/platform/framework" remote="MyirALLWINNERPublic" revision="cae9facee934fe154d8d53c9d5b2eb20262a3800"/>
-  <project name="test" path="T507H/test" remote="MyirALLWINNERPublic" revision="139470029f263ed1d3d34d706611e8078f6d0d14"/>
-  <project name="tools" path="T507H/tools" remote="MyirALLWINNERPublic" revision="aaf20f8ae523d6590fc36456d08aa8de9cf037c9"/>
-  <project name="brandy-2.0" path="T507H/brandy/brandy-2.0" remote="MyirALLWINNERPublic" revision="5a77bc013b189f055a567656d28980c72334a32f"/>
-  <project name="build" path="T507H/build" remote="MyirALLWINNERPublic" revision="4332bf1793748ae524d8a4302e91cf3ac1e4c966"/>
-  <project name="device" path="T507H/device" remote="MyirALLWINNERPublic" revision="e181afcf8aef9bca6589ab1e1ee4bf682e3a15ab"/>
+<!-- source code-->
+  <project name="test" path="longan/test" remote="MyirALLWINNERPublic" revision="139470029f263ed1d3d34d706611e8078f6d0d14"/>
+  <project name="device" path="longan/device" remote="MyirALLWINNERPublic" revision="3d8e565af9b2fee30319fe431559e006f9f3fc81"/>
 
-  <project name="toolchain" path="T507H/brandy/brandy-2.0/tools/toolchain" remote="MyirALLWINNERPublic" revision="cb418935d594529e696e14aa2e24cf2467bcd54f"/>
-  <project name="toolchain" path="T507H/build/toolchain" remote="MyirALLWINNERPublic" revision="cb418935d594529e696e14aa2e24cf2467bcd54f"/>
-  <project name="build.sh" path="T507H/" remote="MyirALLWINNERPublic" revision="2d6ab900f77e784bc2bc2072bcb76207e4bdb92b"/>
+<!--tools -->
+  <project name="toolchain" path="longan/brandy/brandy-2.0/tools/toolchain" remote="LicyPublic" revision="cb418935d594529e696e14aa2e24cf2467bcd54f"/>
+  <project name="toolchain" path="longan/build/toolchain" remote="LicyPublic" revision="cb418935d594529e696e14aa2e24cf2467bcd54f"/>
+  <project name="build.sh" path="longan/" remote="MyirALLWINNERPublic" revision="2d6ab900f77e784bc2bc2072bcb76207e4bdb92b"/>
+  <project name="build" path="longan/build" remote="MyirALLWINNERPublic" revision="4332bf1793748ae524d8a4302e91cf3ac1e4c966"/>
+  <project name="tools" path="longan/tools" remote="MyirALLWINNERPublic" revision="aaf20f8ae523d6590fc36456d08aa8de9cf037c9"/>
 
-  <project name="myir-t5-kernel" path="T507H/kernel/linux-4.9" remote="MyirALLWINNERPublic" revision="5e8dd7cf40231c8a4311e090a731b3166d5421dd"/>
-  <project name="myir-t5-uboot" path="T507H/brandy/brandy-2.0/u-boot-2018" remote="MyirALLWINNERPublic" revision="2233efebf62ec73b5621558f3517eb086c3f426a"/>
+ <!--BSP code -->
+  <project name="brandy-2.0" path="longan/brandy/brandy-2.0" remote="MyirALLWINNERPublic" revision="5a77bc013b189f055a567656d28980c72334a32f"/>
+  <project name="myir-t5-kernel" path="longan/kernel/linux-4.9" remote="MyirALLWINNERPublic" revision="f1c093f19659e327f36e17053c9aee3b365db779"/>
+  <project name="myir-t5-uboot" path="longan/brandy/brandy-2.0/u-boot-2018" remote="MyirALLWINNERPublic" revision="c70fa6f0f1af450434b002e786e3f4d3e3e23fe3"/>
 
 </manifest>

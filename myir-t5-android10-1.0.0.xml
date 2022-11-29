@@ -4,7 +4,7 @@
 	<remote fetch="https://gitee.com/lichang70" name="LicyPublic"/>
 	<remote fetch="https://github.com/MYiR-Dev" name="MyirPublic"/>
 	<remote fetch="https://github.com/MYIR-ALLWINNER" name="MyirALLWINNERPublic"/>
-
+	<remote fetch="https://gitlab.com/licy007" name="LicydevPublic"/>
 	<default remote="MyirALLWINNERPublic"/>
 
 <!-- source code-->
@@ -22,5 +22,32 @@
   <project name="brandy-2.0" path="longan/brandy/brandy-2.0" remote="MyirALLWINNERPublic" revision="5a77bc013b189f055a567656d28980c72334a32f"/>
   <project name="myir-t5-kernel" path="longan/kernel/linux-4.9" remote="MyirALLWINNERPublic" revision="f1c093f19659e327f36e17053c9aee3b365db779"/>
   <project name="myir-t5-uboot" path="longan/brandy/brandy-2.0/u-boot-2018" remote="MyirALLWINNERPublic" revision="c70fa6f0f1af450434b002e786e3f4d3e3e23fe3"/>
+
+<!-- android device  -->
+  <project name="android-makefile" path="android/" remote="LicydevPublic" revision="561d3a4de9cf4e746aa9f78e114aaa7aeb1f6821"/>
+  <project name="art" path="android/art" remote="LicydevPublic" revision="2c6573607a5d72d5f6f6e4f90c0fb10cb60b4485"/>
+  <project name="bionic" path="android/bionic" remote="LicydevPublic" revision="6ddfb1ca81df997af6e0131da577245c7851db59"/>
+  <project name="bootable" path="android/bootable" remote="LicydevPublic" revision="8c41975c7442ce10dbd2d3e70f991eaa2d95709b"/>
+  <project name="build" path="android/build" remote="LicydevPublic" revision="3363d9aab3373278c2ca432945be4377361bfea4"/>
+  <project name="cts" path="android/cts" remote="LicydevPublic" revision="3f34393a8f7fcac6fbca1919ba940217db216992"/>
+  <project name="dalvik" path="android/dalvik" remote="LicydevPublic" revision="66f70d25ad668af304f460a6ee15baacb56955d2"/>
+  <project name="developers" path="android/developers" remote="LicydevPublic" revision="8819fb059e7cca492b8e700fff912595d83fed4a"/>
+  <project name="frameworks" path="android/frameworks" remote="LicydevPublic" revision="7cbf0bbe19baf02f15173851aa15b6a26f646636"/>
+  <project name="external" path="android/external" remote="LicydevPublic" revision="bf0ed39c7ed320cf857b9fe9b1ba4e76d228a235"/>
+  <project name="hardware" path="android/hardware" remote="LicydevPublic" revision="33e5eafc9d3d775b983669a6541e61bbd6b27235"/>
+  <project name="android-kernel" path="android/kernel" remote="LicydevPublic" revision="7bac3cf03bb1bbabe8c0bb1ee12511a6d3b73a68"/>
+  <project name="libcore" path="android/libcore" remote="LicydevPublic" revision="b701738787eddc790d0bcc9308d12be4d0a2a5ed"/>
+  <project name="libnativehelper" path="android/libnativehelper" remote="LicydevPublic" revision="211010e8920f66b41110483593edf1f3a1b037bb"/>
+  <project name="packages" path="android/packages" remote="LicydevPublic" revision="42796a40bcf1bdf07605f518d99a43383a88c2ff"/>
+  <project name="android-sdk" path="android/sdk" remote="LicydevPublic" revision="2487f6804f2e386dac0a0d4f40d76146036a950f"/>
+  <project name="pdk" path="android/pdk" remote="LicydevPublic" revision="81157c91de2de12196dc33ca1f8ec3ac1cd09d29"/>
+  <project name="platform_testing" path="android/platform_testing" remote="LicydevPublic" revision="e117c335cdba42aaf76a3e6fc34e4a66d98c2cee"/>
+  <project name="system" path="android/system" remote="LicydevPublic" revision="b9e76404230d11ec9703dc62b281c5b5ca22526b"/>
+  <project name="android-test" path="android/test" remote="LicydevPublic" revision="e16fd82a53e3aee282613006e57aec0588d26538"/>
+  <project name="android-toolchain" path="android/toolchain" remote="LicydevPublic" revision="333efc921cad48a14025f3c3f6be796d446ab77c"/>
+  <project name="vendor" path="android/vendor" remote="LicydevPublic" revision="8ebb651dd14ae5f8b6abb6950659649731cf96bb"/>
+  <project name="android-device" path="android/device" remote="LicydevPublic" revision="e42ed929fdeb74eafb5e4642a6bd6136a3cc8a12"/>
+  <project name="myir-t507-android-softwinner" path="android/device/softwinner" remote="MyirALLWINNERPublic" revision="5924f085f4d681828e12f16894fe80c22fbbf1fb"/>
+<!--prebuilts-->
 
 </manifest>

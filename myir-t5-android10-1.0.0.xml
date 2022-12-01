@@ -46,8 +46,22 @@
   <project name="android-test" path="android/test" remote="LicydevPublic" revision="e16fd82a53e3aee282613006e57aec0588d26538"/>
   <project name="android-toolchain" path="android/toolchain" remote="LicydevPublic" revision="333efc921cad48a14025f3c3f6be796d446ab77c"/>
   <project name="vendor" path="android/vendor" remote="LicydevPublic" revision="8ebb651dd14ae5f8b6abb6950659649731cf96bb"/>
+  <project name="development" path="android/development" remote="LicydevPublic" revision="5cbb8e8319f7d82546f7de7f026c2d604d7a789a"/>
+  <project name="android-tools" path="android/tools" remote="LicydevPublic" revision="5c42d304595839f03d055ae0e327eb2526f0b802"/>
   <project name="android-device" path="android/device" remote="LicydevPublic" revision="e42ed929fdeb74eafb5e4642a6bd6136a3cc8a12"/>
   <project name="myir-t507-android-softwinner" path="android/device/softwinner" remote="MyirALLWINNERPublic" revision="5924f085f4d681828e12f16894fe80c22fbbf1fb"/>
 <!--prebuilts-->
+  <project name="clang" path="android/prebuilts/clang" remote="LicydevPublic" revision="8811ad9a6f47a96df38698c0ef3fa8433f8a8d7f"/>
+  <project name="android-prebuilts-gcc" path="android/prebuilts/gcc" remote="LicydevPublic" revision="0fe37c9e351d0cd9d3a77bcfd65df0a18e8fadd6"/>
+  <project name="android-emulator" path="android/prebuilts/android-emulator" remote="LicydevPublic" revision="ba38b63befe71f6fca1138d1cef7a1940cf741b9"/>
+  <project name="abi-dumps" path="android/prebuilts/abi-dumps" remote="LicydevPublic" revision="68c7eefb5f15ab279df70e81517e669eb6a97ea6"/>
+  <project name="android-prebuilts-tools" path="android/prebuilts/tools" remote="LicydevPublic" revision="8d914502340bad3d6038e703993258a63fd9689a"/>
+  <project name="android-prebuilts-misc" path="android/prebuilts/misc" remote="LicydevPublic" revision="9d7686f3d8be10b90ee7198af11975d52f0c27b0"/>
+  <project name="android-prebuilts-ndk" path="android/prebuilts/ndk" remote="LicydevPublic" revision="fe6aa00a1672324835701d6420488ae1f68aa1f1"/>
+  <project name="android-prebuilts-gradle-plugin" path="android/prebuilts/gradle-plugin" remote="LicydevPublic" revision="96734d5af5fd94705d22f9a5cbec7b189c676435"/>
+
+  <project name="prebuilts" path="android/prebuilts" remote="LicydevPublic" revision="f8fcc0b7dd829581a33b056cbfb09ddf15c5b92f"/>
+
+
 
 </manifest>
